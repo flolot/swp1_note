@@ -3,12 +3,12 @@
 ## Part 1: HTML CSS Basic
 ## Chapter 1: Basics of HTML
 - The basic structure of HTML
-
 <!DOCTYPE html> HTML5 최신 웹 표준을 사용하겠다는 선언(항상 맨 위에 작성해야 함)
-<html>...</html> HTML의 시작과 끝
-<head>...</head> 웹 페이지의 제목과 정보를 구성하는 태그들이 위치하는 문서의 서문 영역
-<body>...</body> 실제로 화면에 보여지게 될 문서의 본문 영역
-
+```
+<html></html> HTML의 시작과 끝
+<head></head> 웹 페이지의 제목과 정보를 구성하는 태그들이 위치하는 문서의 서문 영역
+<body></body> 실제로 화면에 보여지게 될 문서의 본문 영역
+```
 - <title> element - 웹 브라우저 탭에 보이는 웹 페이지의 제목을 정의하는 태그
 - <meta> element- 한글 깨지는 현상 방지, 메타 데이터 = 문서의 정보, <meta>는 닫기 태그가 없으며 <title>과 마찬가지로 <head>...</head> 사이에 작성해야 함
 - <h1> element - <h1>, <h2>, <h3>, <h4>, <h5>, <h6>는 본문의 표제 역할
@@ -18,7 +18,9 @@
 - <hr> element - 수평선,  닫는 태그가 없음
 - <pre> element - 예외로 공백과 줄바꿈을 그대로 보여주는 태그
 - <div> element - 레이아웃을 만드는 데 가장 많이 쓰이는 태그, 부모의 너비나 브라우저의 너비 만큼 꽉 채워진다는 특징이 있으며, 여러 태그들을 감싸 하나의 그룹 영역을 만드는 것이 주 역할
+
  ### Chapter 2: Basics of CSS
+
 - How to apply class - HTML 태그로 만들어진 요소와 구조에 디자인을 적용하는 역할
 인라인 방식 - 태그에 style 속성을 추가하여 그 안에 직접 CSS 코드를 작성하는 방식
 ```html
@@ -31,7 +33,7 @@
 <div class="human teacher" id="sam"></div>
 ```
 내부 스타일 시트
-<head>...</head> 안에 <style>을 작성하는 스타일
+<head></head> 안에 <style>을 작성하는 스타일
 외부 스타일 시트
 HTML 문서 외의 CSS 파일을 따로 분리하는 스타일
 - CSS 작성 규칙
