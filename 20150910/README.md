@@ -1,7 +1,7 @@
 # Lecture 2 (2015/9/10)
 ---
 ## Part 1: HTML CSS Basic
-## Chapter 1: Basics of HTML
+### Chapter 1: Basics of HTML
 - The basic structure of HTML
 <!DOCTYPE html> HTML5 최신 웹 표준을 사용하겠다는 선언(항상 맨 위에 작성해야 함)
 ```
@@ -23,7 +23,6 @@
 ```
 
 ### Chapter 2: Basics of CSS
-
 - How to apply class - HTML 태그로 만들어진 요소와 구조에 디자인을 적용하는 역할
 인라인 방식 - 태그에 style 속성을 추가하여 그 안에 직접 CSS 코드를 작성하는 방식
 ```html
@@ -52,7 +51,7 @@ rel="stylesheet" CSS 파일을 불러올 때 추가하는 속성
 media="all" 모든 디바이스에서 불러올 때 추가하는 속성
 href="css/style.css" 불러올 파일(css 폴더 속의 style.css)의 경로
 ```
-
+---
 ## Part 2: How to use semantic elements
 시맨틱 태그란 HTML5에서 새롭게 추가된, 문서의 구조를 만드는 요소
 ### Chapter 1: header and footer
@@ -71,7 +70,7 @@ href="css/style.css" 불러올 파일(css 폴더 속의 style.css)의 경로
 - Semantic element - <section> element - 영역을 나누는 태그
 - <nav> and  <section> elements - apply css
 ```
-
+- float and overflow
 float 속성- float는 정렬에 관련된 CSS 속성으로 대표적인 속성값으로 left, right가 있음
 overflow: hidden은 어떤 요소 속의 내용이 너무 많아서 그 요소의 영역에 내용을 다 담아내지 못해서 영역 바깥으로 넘쳐날 경우 넘치는 부분을 보이지 않도록 합니다.
 overflow: scroll은 일단 넘치는 부분을 보이지 않게 하되 요소에 스크롤 바를 만들어서 스크롤링을 통하여 볼 수 있도록 함
@@ -85,7 +84,7 @@ body {
   margin: 0;
 }
 ```
-
+---
 ## Part 3: Practice HTML elements
 ### Chapter 1: accents and link elements
 인라인 요소
@@ -99,7 +98,6 @@ Inse4t a line between <section> elements - border-bottom: 1px solid black;
 <a>의 target 속성을 지정하지 않은 채로 링크를 클릭하면 현재 페이지가 이동할 페이지로 전환
 하지만 target 속성에 _blank라는 값을 넣으면 이동할 페이지가 새 탭에서 띄워짐
 ```
-
 ### Chapter 2: list and table
 ![image](https://s3-ap-northeast-1.amazonaws.com/toycode/images/content/html_css_basic_ko/ui_li.jpg)
 ```
@@ -130,7 +128,7 @@ rows="10" cols="50"을 입력하게 되면 세로로 10줄 가로로 50자 정�
     <option value="[value]">
 <input type="submit" value ="[value]">
 ```
-
+---
 ## Part 4: Properties of CSS
 ### Chapter 1: work on an album cover
 - 배경 이미지를 지정
@@ -177,7 +175,7 @@ min-width: 너비 해당 너비가 최소값일 때(너비 ~)
   }
 }
 ```
-
+---
 ### Useful terminal commands
 Initialize git
 ```sh 
